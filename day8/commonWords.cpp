@@ -34,6 +34,7 @@ vector<string> commonChars(vector<string>& words) {
         return result ;
     }
 
+ // day 8 
 int main(){
     vector<string> words = { "bella","label","roller" } ;
     vector<string> result = commonChars(words) ;
