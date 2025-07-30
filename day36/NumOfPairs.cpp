@@ -17,8 +17,7 @@ int numOfPairs(vector<string>& nums, string target) {
     }
 
 int main() {
-    vector<string> nums = {"1", "2", "3", "4", "
-5"};
+    vector<string> nums = {"1", "2", "3", "4", "5"};
     string target = "12";
     int count = numOfPairs(nums, target);
     cout << "Number of pairs: " << count << endl;
